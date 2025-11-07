@@ -1,6 +1,8 @@
 import React,{useEffect} from 'react'
 import {Container, Row, Col} from 'react-bootstrap';
-// import myImg from "../../Assets/avatar.svg";
+// import myImg from "../../assets/home-konwnAvatar.png";
+import Karthi from '../../assets/karthi_photo.jpg';
+
 // import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -72,10 +74,10 @@ function Home2() {
             </div>
 
             </Col>
-            <Col md={4} className="myAvtar">
-              {/* <Tilt>
-                <img src={myImg} className="img-fluid" alt="avatar" />
-              </Tilt> */}
+          <Col md={4} className="myAvtar" data-aos="fade-left">
+              {/* <Tilt> */}
+            <img src={Karthi} className="img-fluid" alt="avatar" style={{ maxHeight: '350px', width: '350px', borderRadius: '50%' }} />
+              {/* </Tilt> */}
             </Col>
           </Row>
           <Row>

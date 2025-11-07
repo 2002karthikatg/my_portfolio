@@ -47,6 +47,9 @@ import SplashCursor from './components/SplashCursor.jsx';
 import NavBar from './components/navbar';
 import ScrollToTop from './components/scrollToTop';
 import Home from './components/Home/home.jsx';
+import About from "./components/About/About";
+import Projects from './components/Projects/Projects.jsx';
+import Resume from './components/Resume/ResumeNew.jsx';
 // import BookASite from './SIDEBAR.jsx';
 // import SpotsFilter from './sideFilter.jsx';
 import Footer from './components/footer.jsx';
@@ -77,6 +80,12 @@ function App() {
         {/* <Home/> */}
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/project" element={<Projects />} />
+          <Route path="/resume" element={<Resume />} />
+
+
+
         </Routes>
         <Footer />
       </div>

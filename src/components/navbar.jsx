@@ -54,23 +54,23 @@ window.addEventListener('scroll', scrollHandle);
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='ms-auto'>
               <Nav.Item>
-                <Nav.Link href='#' to='/' className='nav-link' onClick={() => { setExpanded(false) }}>
-                  <AiOutlineHome style={{ marginBottom: "2px" }} /> Home</Nav.Link>
+                <Link to='/' className='nav-link' onClick={() => { setExpanded(false) }}>
+                  <AiOutlineHome style={{ marginBottom: "2px" }} /> Home</Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link href='#' to='/about' className='nav-link' onClick={() => { setExpanded(false) }}>
-                  <AiOutlineUser style={{ marginBottom: "2px" }} /> About</Nav.Link>
+                <Link to='/about' className='nav-link' onClick={() => { setExpanded(false) }}>
+                  <AiOutlineUser style={{ marginBottom: "2px" }} /> About</Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link href='#' to='/project' className='nav-link' onClick={() => { setExpanded(false) }}>
-                  <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} /> Projects </Nav.Link>
+                <Link to='/project' className='nav-link' onClick={() => { setExpanded(false) }}>
+                  <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} /> Projects </Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link href='#' to='/resume' className='nav-link' onClick={() => { setExpanded(false) }}>
-                  <CgFileDocument style={{ marginBottom: "2px" }} /> Resume</Nav.Link>
+                <Link to='/resume' className='nav-link' onClick={() => { setExpanded(false) }}>
+                  <CgFileDocument style={{ marginBottom: "2px" }} /> Resume</Link>
               </Nav.Item>
 
               <Nav.Item>
@@ -85,8 +85,7 @@ window.addEventListener('scroll', scrollHandle);
                   <AiFillStar style={{ fontSize: "1.1em" }} />
                 </Button>
               </Nav.Item>
-
-
+              
             </Nav>
           </Navbar.Collapse>
 

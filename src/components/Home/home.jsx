@@ -1,7 +1,10 @@
 import React,{useEffect} from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import Particle from '../particle.jsx';
-import Karthi from '../../assets/karthi_photo.jpg';
+import myImg from "../../assets/home-konwnAvatar.png";
+// import Karthi from '../../assets/karthi_photo.jpg';
+
+
 import Type from "./Type";
 import Home2 from './home2.jsx';
 import 'aos/dist/aos.css'; // Import AOS styles
@@ -39,7 +42,7 @@ function Home() {
               </Col>
               {/* Column-2  */}
               <Col md={5} style={{ paddingBottom: '20px' }} data-aos="zoom-in">
-                <img src={Karthi} className='img-fluid' style={{ maxHeight: '350px', width:'350px', borderRadius:'50%' }}></img>
+              <img src={myImg} className='img-fluid' style={{ maxHeight: '350px', width:'350px', borderRadius:'50%' }}></img>
               </Col>
             </Row>
           </Container>
