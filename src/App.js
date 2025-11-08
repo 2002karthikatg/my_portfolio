@@ -42,7 +42,6 @@ import React, { useState, useEffect } from 'react'
 import './style.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Preloader from './components/pre';
-
 import NavBar from './components/navbar';
 import ScrollToTop from './components/scrollToTop';
 import Home from './components/Home/home.jsx';
