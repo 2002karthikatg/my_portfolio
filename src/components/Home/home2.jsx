@@ -39,27 +39,27 @@ function Home2() {
                 LET ME <span className="purple"> INTRODUCE </span> MYSELF
               </h1>
               <p className="home-about-body">
-                I fell in love with programming and I have at least learnt
-                something, I think… 🤷‍♂️
+           A results-oriented and passionate MERN Stack Developer with one year of professional experience specializing in the design and implementation of full-stack web applications.
+            {/* I think… 🤷‍♂️ */}
                 <br />
-                <br />I am fluent in classics like
+                <br />I possess strong proficiency in the MongoDB, Express.js, React.js, and Node.js 
                 <i>
-                  <b className="purple"> C++, Javascript and Go. </b>
+                  <b className="purple">MongoDB, Express.js, React.js, and Node.js </b>
                 </i>
+                ecosystem, complemented by expertise in modern frontend frameworks
                 <br />
                 <br />
                 My field of Interest's are building new &nbsp;
                 <i>
-                  <b className="purple">Web Technologies and Products </b> and
+                  <b className="purple">Websites  with admin panel and make it attractive animations </b> and
                   also in areas related to{" "}
-                  <b className="purple">
+                  {/* <b className="purple">
                     Blockchain.
-                  </b>
+                  </b> */}
                 </i>
                 <br />
                 <br />
-                Whenever possible, I also apply my passion for developing products
-                with <b className="purple">Node.js</b> and
+                My primary focus is on developing scalable, efficient, and user-centric digital products. I am driven by the challenge of solving complex problems and am dedicated to writing clean, maintainable code to build technologies that deliver tangible value using <b className="purple">Node.js</b> and
                 <i>
                   <b className="purple">
                     {" "}
@@ -68,7 +68,7 @@ function Home2() {
                 </i>
                 &nbsp; like
                 <i>
-                  <b className="purple"> React.js and Next.js</b>
+                  <b className="purple"> React.js</b>
                 </i>
               </p>
             </div>

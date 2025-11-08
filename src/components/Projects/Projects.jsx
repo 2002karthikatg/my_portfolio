@@ -32,8 +32,8 @@ function Projects() {
                         <ProjectCard
                             imgPath={outdoor}
                             isBlog={false}
-                            title="Outdoor"
-                            description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+                            title="OUTDOOR - Hoarding Booking Platform"
+                            description=" A full-stack web application for real-time outdoor advertising hoarding bookings. It features user authentication, a shopping cart, and a reservation system. The platform sends automated order confirmations via SMS and email and includes a 'Deal of the Day' section with a dynamic countdown timer."
                             ghLink="https://github.com/2002karthikatg"
                             demoLink="https://www.adinntechnologies.com"
                         />
@@ -43,8 +43,8 @@ function Projects() {
                         <ProjectCard
                             imgPath={roadshow}
                             isBlog={false}
-                            title="Roadshow"
-                            description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+                            title="ROADSHOW - Vehicle Booking & Management"
+                            description="A system for managing and booking roadshow vehicles. Admins can upload vehicle details, while employees have a dedicated login to view specific vehicle information, including availability status, booking schedules, and associated costs."
                             ghLink="https://github.com/2002karthikatg"
                             demoLink="https://frontend-roadshow-97ae.vercel.app"
                         />
@@ -54,8 +54,10 @@ function Projects() {
                         <ProjectCard
                             imgPath={outdoorAdmin}
                             isBlog={false}
-                            title="Outdoor Admin Panel"
-                            description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+                            title="OUTDOOR ADMIN PANEL"
+                            description="A comprehensive admin dashboard for the OUTDOOR platform. Admins can manage the product catalog, process orders via a centralized booking calendar, and monitor all user-site interactions, including stored contact details and inquiries.
+
+"
                             ghLink="https://github.com/2002karthikatg"
                             demoLink="https://www.adinntechnologies.com/admin"
                         />
