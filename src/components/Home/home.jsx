@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
-import Particle from '../particle.jsx';
+// import Particle from '../particle.jsx';
 import myImg from "../../assets/home-konwnAvatar.png";
 // import Karthi from '../../assets/karthi_photo.jpg';
 

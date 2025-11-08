@@ -40,10 +40,9 @@ import React, { useState, useEffect } from 'react'
 // import Search from './search';
 // import Preloader from './components/pre';
 import './style.css';
-import { BrowserRouter as Router, Routes, Link, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Preloader from './components/pre';
-//Splash cursor
-import SplashCursor from './components/SplashCursor.jsx';
+
 import NavBar from './components/navbar';
 import ScrollToTop from './components/scrollToTop';
 import Home from './components/Home/home.jsx';

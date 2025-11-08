@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiNextdotjs, SiSolidity } from "react-icons/si";
-import { FaRust } from "react-icons/fa";
+// import { SiNextdotjs, SiSolidity } from "react-icons/si";
+// import { FaRust } from "react-icons/fa";
 // import Go from "../../Assets/TechIcons/go.svg";
 // import C from "../../assets/TechIcons/C++.svg";
 import Javascript from "../../assets/TechIcons/Javascript.svg";
@@ -22,7 +22,7 @@ import Mongo from "../../assets/TechIcons/Mongo.svg";
 // import Kubernates from "../../assets/TechIcons/Kubernates.svg";
 // import Redux from "../../assets/TechIcons/Redux.svg";
 // import Tailwind from "../../assets/TechIcons/Tailwind.svg";
-import MUI from "../../assets/TechIcons/MUI.svg";
+// import MUI from "../../assets/TechIcons/MUI.svg";
 import Postman from "../../assets/TechIcons/Postman.svg";
 // import AWS from "../../assets/TechIcons/AWS.svg";
 // import Kafka from "../../assets/TechIcons/Kafka.svg";
