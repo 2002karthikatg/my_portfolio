@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 // import Particle from "../../components/particle";
-import pdf from "../../assets/KARTHIYAYINI T G_Resume (2).pdf";
+import pdf from "../../assets/KARTHIYAYINI T G_ResumeUpdatedNew (1).pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 // import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -39,7 +39,23 @@ function ResumeNew() {
                 <Row className="resume">
                     <Document file={pdf} className="d-flex justify-content-center">
                         <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+
+                        <iframe
+                            src="../../assets/KARTHIYAYINI T G_ResumeUpdatedNew (1).pdf"
+                            width="100%"
+                            height="600px"
+                            title="Resume"
+                            style={{ border: 'none' }}
+                        />
                     </Document>
+
+                    {/* <iframe
+                        src="../../assets/KARTHIYAYINI T G_ResumeUpdatedNew (1).pdf"
+                        width="100%"
+                        height="600px"
+                        title="Resume"
+                        style={{ border: 'none' }}
+                    /> */}
                 </Row>
 
                 <Row style={{ justifyContent: "center", position: "relative" }}>

@@ -19,7 +19,7 @@ function Footer() {
                     <h3>Designed and Developed by Karthiyayini</h3>
                 </Col>
                 <Col md="4" className="footer-copywright">
-                    <p>Copyright © {year} Your Name. All Rights Reserved.</p>
+                    <p>Copyright © {year} Karthiyayini. All Rights Reserved.</p>
                 </Col>
                 <Col md="4" className="footer-body">
                     <ul className="footer-icons">
@@ -35,7 +35,7 @@ function Footer() {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="mailto : karthiyayinitg1312@gmail.com"
+                                href="mailto:karthiyayinitg1312@gmail.com"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
