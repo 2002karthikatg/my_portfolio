@@ -32,7 +32,9 @@ function Home2() {
 
         <Container>
           <Row>
-          <Col md={8} className="home-about-description" data-aos="fade-right">
+          <Col 
+          md={12}
+           className="home-about-description" data-aos="fade-right" style={{alignContent:'center', alignItems:'center'}}>
             <div>
 
               <h1 style={{ fontSize: "2.6em" }}>
@@ -74,9 +76,11 @@ function Home2() {
             </div>
 
             </Col>
-          <Col md={4} className="myAvtar" data-aos="fade-left">
+          <Col 
+          // md={4}
+           className="myAvtar" data-aos="fade-left">
               {/* <Tilt> */}
-            <img src={Karthi} className="img-fluid" alt="avatar" style={{ maxHeight: '350px', width: '350px', borderRadius: '50%' }} />
+            {/* <img src={Karthi} className="img-fluid" alt="avatar" style={{ maxHeight: '350px', width: '350px', borderRadius: '50%' }} /> */}
               {/* </Tilt> */}
             </Col>
           </Row>

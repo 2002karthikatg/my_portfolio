@@ -9,7 +9,7 @@ import ProjectCard from "./ProjectCards";
 // import chatify from "../../Assets/Projects/chatify.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
-import outdoor from '../../assets/ProjectIcons/OutdoorProjects1.png';
+import outdoor from '../../assets/ProjectIcons/OutdoorProjects11.png';
 import roadshow from '../../assets/ProjectIcons/RoadshowProject1.png';
 import outdoorAdmin from '../../assets/ProjectIcons/OutdoorAdminPanel1.png';
 
@@ -35,7 +35,7 @@ function Projects() {
                             title="OUTDOOR - Hoarding Booking Platform"
                             description=" A full-stack web application for real-time outdoor advertising hoarding bookings. It features user authentication, a shopping cart, and a reservation system. The platform sends automated order confirmations via SMS and email and includes a 'Deal of the Day' section with a dynamic countdown timer."
                             ghLink="https://github.com/2002karthikatg"
-                            demoLink="https://www.adinntechnologies.com"
+                            demoLink="https://adinnoutdoors.com/"
                         />
                     </Col>
 
@@ -59,7 +59,7 @@ function Projects() {
 
 "
                             ghLink="https://github.com/2002karthikatg"
-                            demoLink="https://www.adinntechnologies.com/admin"
+                            demoLink="https://adinnoutdoors.com//admin"
                         />
                     </Col>
 
